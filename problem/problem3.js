@@ -8,8 +8,7 @@ for ( let i = 0 ; i < inventory.length ; i++ ) {
     car.push(inventory[i].car_model)
 }
 car.sort()
-let uniqueCarMakes = [...new Set(car)]
-return uniqueCarMakes;
+return car;
 }
 
 export { problem3 };
