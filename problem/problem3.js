@@ -5,7 +5,7 @@ import {inventory} from '../data.js';
 function problem3(inventory) {
 let car = []
 for ( let i = 0 ; i < inventory.length ; i++ ) {
-    car.push(inventory[i].car_make)
+    car.push(inventory[i].car_model)
 }
 car.sort()
 let uniqueCarMakes = [...new Set(car)]
